@@ -1,0 +1,40 @@
+*{
+    font-size: large;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-areas: "navbar navbar navbar navbar"
+                         "sidebar content content content"
+                         "sidebar content content content"
+                         "footer footer footer footer";
+}
+
+.size{
+    width: 100vw;
+    height: 100vh;
+}
+
+#navbar {
+  grid-area: navbar;
+  background-color: blue;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: red;
+}
+
+#content {
+  grid-area: content;
+  background-color: green;
+}
+
+#footer {
+  grid-area: footer;
+  background-color: pink;
+}
+

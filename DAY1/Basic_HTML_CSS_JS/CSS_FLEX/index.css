@@ -1,0 +1,28 @@
+.FlexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightblue;
+  flex-wrap: wrap; /* Make it responsive */
+  border: red 2px solid;
+  flex-direction: column;
+}
+
+.FlexItem {
+  background-color: yellow;
+  padding: 20px;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.FlexItem:nth-child(2) {
+  background-color: lightgreen;
+}
+
+.FlexItem:nth-child(3) {
+  align-self: flex-end;
+}
+

@@ -1,0 +1,66 @@
+:root{
+    --color1: blue;
+    --color2: red;
+    --color3: green;
+    --color4: pink;
+    --color5: yellow;
+    --color6: purple;
+    --color7: orange;
+}
+
+body{
+    background-color: var(--color4);
+}
+/* Syntax of media queries */
+/* @media only|not media-type and (expression){
+    content
+} */
+
+@media only screen and (max-width: 455px) {
+    body{
+        background-color: var(--color1);
+    }
+    .mainDiv{
+        border-radius: 50%;
+    }
+}
+
+@media not screen and (max-width: 455px) {
+    body{
+        background-color: var(--color3);
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body{
+        background-color: var(--color5);
+    }
+    .mainDiv{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+}
+
+button:hover{
+    background-color: var(--color6);
+}
+
+
+.mainDiv{
+    height: 40vh;
+    width: 40vw;
+    border: 1px solid black;
+    background-color: var(--color2);
+
+}
+
+#username{
+    width: 100%;
+    height: 50px;
+    background-color: var(--color7);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    :hover{
+        background-color: var(--color7);
+    }
+}
