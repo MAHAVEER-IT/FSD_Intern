@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+input{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: rgb(235, 109, 109);
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,36 @@
+.todoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #97c5e4;
+    outline: black solid 1px;
+}
+
+.todoCard h3 {
+    margin: 0 0 5px;
+}
+
+.todoCard p {
+    margin: 0;
+}
+
+.btnadd{
+     border-radius: 5px;
+    background-color: rgb(141, 235, 109);
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
